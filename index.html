@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count Task</title>
+    <style>
+      .container {
+        width: 30%;
+        margin: 10% auto;
+        text-align: center;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background: #fff;
+        border: 1px solid #ccc;
+      }
+
+      @media (max-width: 700px) {
+        .container {
+          width: 90%;
+          margin: 50% auto;
+        }
+
+        button {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <h1>Count : <span id="count">0</span></h1>
+        <div class="btn">
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+          <button id="resume">Resume</button>
+          <button id="restart">Restart</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
